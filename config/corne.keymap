@@ -70,6 +70,7 @@
         };
 
         function_layer {
+            display-name = "Function";
             bindings = <
 &kp C_VOLUME_UP  &kp F1  &kp F2   &kp F3   &kp F4   &kp C_NEXT    &trans    &kp PAGE_UP     &trans        &trans     &kp HOME  &bt BT_NXT
 &kp K_MUTE       &kp F5  &kp F6   &kp F7   &kp F8   &kp C_PP      &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans    &bt BT_CLR
