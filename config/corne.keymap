@@ -62,9 +62,9 @@
 
             display-name = "Symbol";
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT     &kp HASH   &kp DOLLAR      &kp PERCENT             &kp CARET              &kp AMPS         &kp ASTRK          &kp LESS_THAN   &kp GREATER_THAN  &trans
-&trans  &kp TILDE        &kp EQUAL  &kp SLASH  &kp LEFT_BRACE  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp RIGHT_BRACE  &kp BACKSLASH      &kp MINUS       &kp PLUS          &trans
-&trans  &kp GRAVE        &kp PIPE   &kp COLON  &kp SEMI        &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp QUESTION     &kp DOUBLE_QUOTES  &kp UNDERSCORE  &kp SINGLE_QUOTE  &trans
+&trans  &kp EXCLAMATION  &kp AT     &kp HASH   &kp DOLLAR      &kp PERCENT             &kp CARET              &kp AMPS         &kp ASTRK      &kp LESS_THAN   &kp GREATER_THAN   &trans
+&trans  &kp GRAVE        &kp EQUAL  &kp SLASH  &kp LEFT_BRACE  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp RIGHT_BRACE  &kp BACKSLASH  &kp MINUS       &kp DOUBLE_QUOTES  &trans
+&trans  &kp TILDE        &kp PIPE   &kp COLON  &kp SEMI        &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp QUESTION     &kp PLUS       &kp UNDERSCORE  &kp SINGLE_QUOTE   &trans
                                     &trans     &trans          &trans                  &trans                 &trans           &trans
             >;
         };
