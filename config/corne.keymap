@@ -124,6 +124,7 @@
         };
 
         gaming_layer {
+            display-name = "Gaming";
             bindings = <
 &kp TAB       &kp N1  &kp Q  &kp W      &kp E      &kp R        &trans  &trans  &trans  &trans  &trans  &kp LA(F4)
 &kp NUMBER_4  &kp N2  &kp A  &kp S      &kp D      &kp F        &trans  &trans  &trans  &trans  &trans  &trans
