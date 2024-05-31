@@ -116,9 +116,9 @@
         function_layer {
             display-name = "Function";
             bindings = <
-&kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &kp F6     &bt BT_PRV  &kp C_VOLUME_UP  &kp C_NEXT  &trans  &trans  &trans
-&kp F7   &kp F8   &kp F9   &kp F10  &kp F11  &kp F12    &bt BT_CLR  &kp K_MUTE       &kp C_PP    &trans  &trans  &trans
-&kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18    &bt BT_NXT  &kp C_VOL_DN     &kp C_PREV  &trans  &trans  &trans
+&kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &kp F6     &bt BT_PRV  &kp C_VOLUME_UP  &kp C_NEXT  &trans        &trans  &trans
+&kp F7   &kp F8   &kp F9   &kp F10  &kp F11  &kp F12    &bt BT_CLR  &kp K_MUTE       &kp C_PP    &kp LEFT_ALT  &trans  &trans
+&kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18    &bt BT_NXT  &kp C_VOL_DN     &kp C_PREV  &trans        &trans  &trans
                            &trans   &trans   &trans     &trans      &trans           &trans
             >;
         };
@@ -126,9 +126,9 @@
         gaming_layer {
             display-name = "Gaming";
             bindings = <
-&kp ESCAPE    &kp TAB       &kp Q  &kp W      &kp E      &kp R        &trans  &trans  &trans  &trans  &kp LG(LA(B))  &kp LA(F4)
-&kp NUMBER_1  &kp N2        &kp A  &kp S      &kp D      &kp F        &trans  &trans  &trans  &trans  &trans         &trans
-&kp NUMBER_3  &kp NUMBER_4  &kp Z  &kp X      &kp C      &kp V        &trans  &trans  &trans  &trans  &trans         &sl 3
+&kp ESCAPE    &kp TAB       &kp Q  &kp W      &kp E      &kp R        &trans  &trans  &trans  &trans  &trans  &kp LA(LG(B))
+&kp NUMBER_1  &kp N2        &kp A  &kp S      &kp D      &kp F        &trans  &trans  &trans  &trans  &trans  &trans
+&kp NUMBER_3  &kp NUMBER_4  &kp Z  &kp X      &kp C      &kp V        &trans  &trans  &trans  &trans  &trans  &mo 3
                                    &kp LCTRL  &kp LSHFT  &kp SPACE    &trans  &trans  &trans
             >;
         };
