@@ -90,9 +90,9 @@
 
             display-name = "NumNav";
             bindings = <
-&trans  &kp NUMBER_1  &kp N2  &kp N3    &kp N4        &kp N5    &kp N6    &kp N7         &kp N8       &kp N9     &kp N0  &trans
-&trans  &trans        &trans  &kp LGUI  &kp LEFT_ALT  &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
-&trans  &trans        &trans  &trans    &trans        &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
+&trans  &kp NUMBER_1  &kp N2  &kp N3    &kp N4        &kp N5    &kp N6    &kp N7         &kp N8       &kp N9     &kp N0      &trans
+&trans  &trans        &trans  &kp LGUI  &kp LEFT_ALT  &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans      &trans
+&trans  &trans        &trans  &trans    &trans        &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp DELETE  &kp INSERT
                               &trans    &trans        &trans    &trans    &trans         &trans
             >;
         };
@@ -106,10 +106,10 @@
 
             display-name = "Symbol";
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT     &kp HASH   &kp DOLLAR      &kp PERCENT             &kp CARET              &kp AMPS         &kp ASTRK      &kp LESS_THAN   &kp GREATER_THAN   &trans
-&trans  &kp GRAVE        &kp EQUAL  &kp SLASH  &kp LEFT_BRACE  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp RIGHT_BRACE  &kp BACKSLASH  &kp MINUS       &kp DOUBLE_QUOTES  &trans
-&trans  &kp TILDE        &kp PIPE   &kp COLON  &kp SEMI        &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp QUESTION     &kp PLUS       &kp UNDERSCORE  &kp SINGLE_QUOTE   &trans
-                                    &trans     &trans          &trans                  &trans                 &trans           &trans
+&trans  &kp EXCLAMATION  &kp AT     &kp HASH      &kp DOLLAR            &kp PERCENT         &kp CARET          &kp AMPS               &kp ASTRK  &kp SLASH       &kp BACKSLASH      &trans
+&trans  &kp GRAVE        &kp EQUAL  &kp PIPE      &kp LEFT_BRACE        &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE        &kp COLON  &kp MINUS       &kp DOUBLE_QUOTES  &trans
+&trans  &kp TILDE        &kp PLUS   &kp QUESTION  &kp LEFT_PARENTHESIS  &kp LESS_THAN       &kp GREATER_THAN   &kp RIGHT_PARENTHESIS  &kp SEMI   &kp UNDERSCORE  &kp SINGLE_QUOTE   &trans
+                                    &trans        &trans                &trans              &trans             &trans                 &trans
             >;
         };
 
