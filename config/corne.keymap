@@ -28,8 +28,9 @@
             compatible = "zmk,behavior-hold-tap";
             label = "MOD_TAP_ALT_SPACE";
             #binding-cells = <2>;
-            tapping-term-ms = <120>;
-            flavor = "tap-unless-interrupted";
+            tapping-term-ms = <170>;
+            require-prior-idle-ms = <125>;
+            flavor = "hold-preferred";
             bindings = <&kp>, <&kp>;
         };
 
