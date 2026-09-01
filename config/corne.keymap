@@ -24,6 +24,15 @@
     };
 
     behaviors {
+        mt_alt_space: mod_tap_alt_space {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MOD_TAP_ALT_SPACE";
+            #binding-cells = <2>;
+            tapping-term-ms = <125>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+
         tap_shift_caps: tap_shift_caps {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_SHIFT_CAPS";
@@ -77,7 +86,7 @@
 &kp LEFT_ALT    &kp Q  &kp W  &kp E     &kp R      &kp T                 &kp Y          &kp U        &kp I            &kp O    &kp P     &kp RIGHT_ALT
 &kp LCTRL       &kp A  &kp S  &kp D     &kp F      &kp G                 &kp H          &kp J        &kp K            &kp L    &kp SEMI  &tog 4
 &sk LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V      &kp B                 &kp N          &kp M        &kp COMMA        &kp DOT  &kp FSLH  &sl 3
-                              &kp LGUI  &lt 1 TAB  &mt LEFT_ALT SPACE    &kp BACKSPACE  &lt 2 ENTER  &tap_shift_caps
+                              &kp LGUI  &lt 1 TAB  &mt_alt_space LEFT_ALT SPACE    &kp BACKSPACE  &lt 2 ENTER  &tap_shift_caps
             >;
         };
 
